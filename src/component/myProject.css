@@ -1,0 +1,106 @@
+.myProject {
+  padding: 80px 0;
+  position: relative;
+}
+.myProject h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.myProject p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+
+.myProject .nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+.myProject .nav-pills .nav-item {
+  width: 33.33333%;
+  text-align: center;
+}
+.myProject .nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 17px 0;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.myProject .nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90.21deg, #2a8577 -5.91%, #2dcacc 111.58%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.myProject .nav-pills .nav-link.active::before {
+  width: 100%;
+}
+.myProject .nav-pills .nav-link.active {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.pills-first {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 55px 0px 0px 55px !important;
+}
+.pills-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+.pills-third {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: 0 55px 55px 0 !important;
+}
+
+.photo-row {
+  align-items: center;
+}
+
+.photo-col {
+  margin-bottom: 10px;
+  -webkit-animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in-left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
