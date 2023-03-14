@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.8df9b662.css",
+    "main.js": "/my-portfolio/static/js/main.944a946e.js",
+    "static/js/787.f2d1e4a7.chunk.js": "/my-portfolio/static/js/787.f2d1e4a7.chunk.js",
+    "static/media/7.png": "/my-portfolio/static/media/7.bff470796cb3da949513.png",
+    "static/media/8.png": "/my-portfolio/static/media/8.e53e3d959cce6a32fbe4.png",
+    "static/media/banner-bg2.png": "/my-portfolio/static/media/banner-bg2.d7a5b9ffa84d54172790.png",
+    "static/media/ChenYuluoyan-Thin-Monospaced.ttf": "/my-portfolio/static/media/ChenYuluoyan-Thin-Monospaced.42a358722916f0254964.ttf",
+    "static/media/microfilm.png": "/my-portfolio/static/media/microfilm.3d33510f75bc8ffd4ead.png",
+    "static/media/20221203.png": "/my-portfolio/static/media/20221203.bb5160f750ad3d13bab1.png",
+    "static/media/20211213.png": "/my-portfolio/static/media/20211213.bf22b34756127fc08020.png",
+    "static/media/fly.png": "/my-portfolio/static/media/fly.1e61dcbfa17a777be4fd.png",
+    "static/media/hypercharger.png": "/my-portfolio/static/media/hypercharger.dc7cf96eb61238bd0c02.png",
+    "static/media/wirelesscharge.png": "/my-portfolio/static/media/wirelesscharge.1b1ffb14da62bffa2a7b.png",
+    "static/media/4.png": "/my-portfolio/static/media/4.2023e76f48a88368d9f1.png",
+    "static/media/6.png": "/my-portfolio/static/media/6.0e015ff4ce49f94ea03e.png",
+    "static/media/2.png": "/my-portfolio/static/media/2.bcaad11cfbf10a197e1c.png",
+    "static/media/color-sharp2.png": "/my-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/9.png": "/my-portfolio/static/media/9.213d04066b21338e9888.png",
+    "static/media/5.png": "/my-portfolio/static/media/5.ddf80b66d127a08ba62b.png",
+    "static/media/3.png": "/my-portfolio/static/media/3.28029675fc3b70ed22dc.png",
+    "static/media/1.png": "/my-portfolio/static/media/1.956c5511575efeef02d9.png",
+    "static/media/FiraCode-Light.ttf": "/my-portfolio/static/media/FiraCode-Light.f2efbd74528cd96ffcb6.ttf",
+    "static/media/proxima-nova-black-font.ttf": "/my-portfolio/static/media/proxima-nova-black-font.00e057681b3051c5c228.ttf",
+    "static/media/CentraNo2-Bold.ttf": "/my-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/my-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/nav-icon3.svg": "/my-portfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/logo.svg": "/my-portfolio/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/my-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/my-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.8df9b662.css.map": "/my-portfolio/static/css/main.8df9b662.css.map",
+    "main.944a946e.js.map": "/my-portfolio/static/js/main.944a946e.js.map",
+    "787.f2d1e4a7.chunk.js.map": "/my-portfolio/static/js/787.f2d1e4a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8df9b662.css",
+    "static/js/main.944a946e.js"
+  ]
+}
