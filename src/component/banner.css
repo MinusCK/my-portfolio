@@ -17,12 +17,12 @@
     rgba(74, 47, 189, 0.5) 111.58%
   );
   border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  /* font-size: 65px; */
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.2em;
@@ -31,7 +31,7 @@
 }
 .banner p {
   color: #b8b8b8;
-  font-size: 18px;
+  /* font-size: 18px; */
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -39,14 +39,14 @@
 .banner button {
   color: #fff;
   font-weight: 700;
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
 }
 .banner button i {
-  font-size: 25px;
+  /* font-size: 25px; */
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
