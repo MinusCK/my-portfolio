@@ -69,12 +69,6 @@ function myProject() {
       key: "6",
     },
   ];
-
-  interface photoProject {
-    key: string;
-    imgUrl: string;
-  }
-
   const photoProject = [
     { imgUrl: require("../assets/image/photo/1.png"), key: "1" },
     { imgUrl: require("../assets/image/photo/2.png"), key: "2" },
