@@ -532,3 +532,11 @@ select:focus {
 .col123 {
   color: #fff;
 } */
+
+.hidden {
+  opacity: 0;
+}
+
+.hidden {
+  opacity: 1;
+}

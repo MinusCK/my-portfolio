@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./myProject.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,8 +21,27 @@ import photo5 from "../assets/image/photo/5.png";
 import photo6 from "../assets/image/photo/6.png";
 import photo7 from "../assets/image/photo/7.png";
 import photo8 from "../assets/image/photo/8.png";
+import { useEffect, useRef, useState } from "react";
 
-function myProject() {
+function MyProject() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const ref = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (ref.current) {
+      const elementTop = ref.current.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (elementTop < windowHeight) {
+        setIsScrolled(true);
+      }
+    }
+  };
   const videoProject = [
     {
       title: "20221203 Same Day Edit",
@@ -87,7 +105,12 @@ function myProject() {
       <Container>
         <Row>
           <Col>
-            <h2>My project</h2>
+            <h2
+              className={`myProject-show ${isScrolled ? "scrolled-h2" : ""}`}
+              ref={ref}
+            >
+              My project
+            </h2>
             <p>These are my project!</p>
             <TabContainer id="project-tabs" defaultActiveKey="first">
               <Nav
@@ -145,9 +168,8 @@ function myProject() {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} />
     </section>
   );
 }
 
-export default myProject;
+export default MyProject;

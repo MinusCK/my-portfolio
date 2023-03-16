@@ -104,3 +104,21 @@
     opacity: 1;
   }
 }
+
+.myProject-show {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.myProject-show.scrolled-h2 {
+  opacity: 1;
+}
+
+.about-me-show {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.about-me-show.scrolled-h2 {
+  opacity: 1;
+}

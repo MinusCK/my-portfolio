@@ -15,7 +15,7 @@ function Footer() {
       <Container className="">
         <Row className="align-item-center">
           <Col sm={6}>
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="footer-logo" />
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">
