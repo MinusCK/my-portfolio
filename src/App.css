@@ -35,8 +35,8 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
@@ -117,6 +117,9 @@ select:focus {
   .banner h1 {
     font-size: 52px;
   }
+  .banner .my-name {
+    font-size: 59px;
+  }
   .banner p,
   .skill p,
   .myProject p {
@@ -133,9 +136,22 @@ select:focus {
   }
   .skill h2,
   .myProject h2,
-  .contact h2 {
+  .contact h2,
+  .about-me h2 {
     font-size: 38px;
   }
+  /* .myProject .pills-first {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 55px 0px 0px 55px;
+  }
+  .myProject .pills-second {
+    border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+  }
+  .myProject .pills-third {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 0 55px 55px 0;
+  } */
   .myProject .nav-pills .nav-link {
     padding: 15px 0;
     font-size: 14px;
@@ -212,6 +228,9 @@ select:focus {
   .banner h1 {
     font-size: 44px;
   }
+  .banner .my-name {
+    font-size: 44px;
+  }
   .banner p,
   .skill p,
   .myProject p {
@@ -219,7 +238,8 @@ select:focus {
   }
   .skill h2,
   .myProject h2,
-  .contact h2 {
+  .contact h2,
+  .about-me h2 {
     font-size: 32px;
   }
   .banner button {
@@ -339,7 +359,7 @@ select:focus {
   .myProject .nav.nav-pills {
     width: 100%;
   }
-  nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+  nav.navbar .navbar-nav .nav-item a.nav-link {
     padding: 0 13px;
     font-size: 15px;
   }
@@ -475,9 +495,9 @@ select:focus {
     width: 100%;
     border-radius: 0;
   }
-  .myProject .nav.nav-pills li.nav-item {
+  /* .myProject .nav.nav-pills .nav-item {
     width: 100%;
-  }
+  } */
   button#pills-contact-tab {
     /* border: 0px solid rgba(255, 255, 255, 0.5); */
     border-radius: 0;
@@ -492,6 +512,16 @@ select:focus {
     border-top: 0px solid rgba(255, 255, 255, 0.5);
     border-bottom: 0px solid rgba(255, 255, 255, 0.5);
   }
+  /* .myProject .pills-first {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  }
+  .myProject .pills-second {
+    border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+  }
+  .myProject .pills-third {
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  } */
 }
 
 /* .App {

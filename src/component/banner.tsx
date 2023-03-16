@@ -51,7 +51,7 @@ function Banner() {
           <Col xs={12} md={12} xl={12}>
             <span className="tagline">Welcome</span>
             <div className="banner-my-name">
-              <h1>{`Yooo!I am Minus~`}</h1>
+              <div className="my-name">{`Yooo!I am Minus~`}</div>
             </div>
             <br />
             <h1>

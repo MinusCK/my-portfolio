@@ -8,32 +8,57 @@ import about_me from "../assets/image/about-temp.png";
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about-me">
       <Container>
         <Row>
           <Col>
             <h2>About me!</h2>
             <p>Let talk about me!</p>
+            <p>If I am a</p>
             <Row>
-              <p>If I am a</p>
-
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
-              </Col>
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
-              </Col>
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
-              </Col>
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
-              </Col>
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
-              </Col>
-              <Col sm={12} md={4}>
-                <div className="skill-card">card1</div>
+              <Col sm={12} md={12}>
+                <div className="skill-bars">
+                  <div className="bar">
+                    <div className="info">
+                      <span>HTML</span>
+                    </div>
+                    <div className="progress-line html">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div className="bar">
+                    <div className="info">
+                      <span>CSS</span>
+                    </div>
+                    <div className="progress-line css">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div className="bar">
+                    <div className="info">
+                      <span>jQuery</span>
+                    </div>
+                    <div className="progress-line jquery">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div className="bar">
+                    <div className="info">
+                      <span>Python</span>
+                    </div>
+                    <div className="progress-line python">
+                      <span></span>
+                    </div>
+                  </div>
+                  <div className="bar">
+                    <div className="info">
+                      <span>MySQL</span>
+                    </div>
+                    <div className="progress-line mysql">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
               </Col>
             </Row>
           </Col>

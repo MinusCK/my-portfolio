@@ -83,7 +83,7 @@ function myProject() {
     // { imgUrl: require("../assets/image/photo/11.png"), key: "11" },
   ];
   return (
-    <section className="myProject" id="project">
+    <section className="myProject" id="myProject">
       <Container>
         <Row>
           <Col>

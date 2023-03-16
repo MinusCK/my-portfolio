@@ -25,7 +25,7 @@
   /* font-size: 65px; */
   font-weight: 700;
   letter-spacing: 0.8px;
-  line-height: 1.2em;
+  line-height: 1.5em;
   margin-bottom: 20px;
   display: inline-block;
 }
@@ -57,6 +57,10 @@
 
 .banner img {
   animation: updown 3s linear infinite;
+}
+
+.banner .my-name {
+  margin-bottom: 70px;
 }
 
 .banner .banner-my-name {

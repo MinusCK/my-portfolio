@@ -8,6 +8,7 @@ import Main from "./component/main";
 import AboutMe from "./component/aboutme";
 import MyProject from "./component/myProject";
 import Banner from "./component/banner";
+import Footer from "./component/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <AboutMe />
       <MyProject />
+      <Footer />
       {/* <Main />
         <AboutMe />
         <MyProject /> */}

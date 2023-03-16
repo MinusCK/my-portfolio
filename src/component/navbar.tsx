@@ -3,7 +3,7 @@ import "./navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 import nav_logo from "../assets/image/logo_24px.png";
-import logo from "../assets/image/logo.svg";
+import logo from "../assets/image/logo2.svg";
 import nav_icon1 from "../assets/image/nav-icon1.svg";
 import nav_icon2 from "../assets/image/nav-icon2.svg";
 import nav_icon3 from "../assets/image/nav-icon3.svg";
@@ -30,7 +30,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="nav-logo" />
         </Navbar.Brand>
         <div></div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -55,7 +55,7 @@ function NavBar() {
               About Me
             </Nav.Link>
             <Nav.Link
-              href="#my-project"
+              href="#myProject"
               className={
                 activeLink === "my-project"
                   ? "active navbar-link"
@@ -68,13 +68,16 @@ function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="http://linkedin.com/in/minus-cheung-4b8994258"
+                target="_blank"
+              >
                 <img src={nav_icon1} />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/RayCKH/" target="_blank">
                 <img src={nav_icon2} />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/minusckh/" target="_blank">
                 <img src={nav_icon3} />
               </a>
             </div>

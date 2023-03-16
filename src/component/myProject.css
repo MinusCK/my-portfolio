@@ -20,7 +20,7 @@
 .myProject .nav-pills {
   width: 72%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 50px !important;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
@@ -57,15 +57,15 @@
 .myProject .nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
 }
-.pills-first {
+.myProject .pills-first {
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   border-radius: 55px 0px 0px 55px !important;
 }
-.pills-second {
+.myProject .pills-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
-.pills-third {
+.myProject .pills-third {
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   border-radius: 0 55px 55px 0 !important;
 }
