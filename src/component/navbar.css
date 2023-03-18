@@ -8,7 +8,13 @@ nav.navbar {
 }
 .scrolled {
   padding: 0px 0;
-  background-color: #2f9989;
+  background: rgb(47, 153, 137);
+  background: linear-gradient(
+    180deg,
+    rgb(30, 107, 95) 50%,
+    rgba(47, 153, 137, 0) 100%
+  );
+  /* background-color: #2f9989; */
 }
 nav.navbar a.navbar-brand {
   width: 9%;

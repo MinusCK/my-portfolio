@@ -522,6 +522,32 @@ select:focus {
   .myProject .pills-third {
     border: 1px solid rgba(255, 255, 255, 0.5) !important;
   } */
+  .about-me .wrapper .center-line {
+    left: 40px;
+  }
+  .about-me .wrapper .row {
+    margin: 30px 0 3px 60px;
+  }
+  .about-me .wrapper .row section {
+    width: 100%;
+  }
+  .about-me .row-1 section::before {
+    left: -7px;
+  }
+  .about-me .row-1 section .icon {
+    left: -60px;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-me .wrapper .center-line,
+  .about-me .row section::before,
+  .about-me .row section .icon {
+    display: none;
+  }
+  .about-me .wrapper .row {
+    margin: 10px 0;
+  }
 }
 
 /* .App {
