@@ -216,6 +216,9 @@ select:focus {
     width: 18px;
     height: 18px;
   }
+  .about-me .title {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1368px) {
@@ -281,6 +284,9 @@ select:focus {
   .skill-bx {
     margin-top: -35px;
   }
+  .about-me .title {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -315,6 +321,9 @@ select:focus {
     width: 90%;
     margin-left: auto;
     display: block;
+  }
+  .about-me .title {
+    font-size: 22px;
   }
 }
 
@@ -352,6 +361,9 @@ select:focus {
   }
   .banner p {
     width: 100%;
+  }
+  .about-me .title {
+    font-size: 22px;
   }
 }
 
@@ -393,6 +405,9 @@ select:focus {
   }
   .footer {
     padding: 0 0 28px 0;
+  }
+  .about-me .title {
+    font-size: 22px;
   }
 }
 
@@ -536,6 +551,13 @@ select:focus {
   }
   .about-me .row-1 section .icon {
     left: -60px;
+  }
+  .about-me .title {
+    font-size: 16px;
+  }
+
+  .about-me .time-line-p {
+    font-size: 12px;
   }
 }
 

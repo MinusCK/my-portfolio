@@ -272,7 +272,7 @@
   justify-content: space-between;
 }
 .row section .details .title {
-  font-size: 22px;
+  /* font-size: 22px; */
   font-weight: 600;
   color: #13806e;
 }
